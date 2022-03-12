@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)
+int main(void) /* The main function is where everything begins */
 {
 int n;
 
-rand(time(0));
+srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n == 0)
 {
