@@ -4,6 +4,8 @@
  *
  *Return: nothing
  */
+int main(void)
+{
 void print_alphabet(void)
 {
 char letter;
@@ -13,4 +15,5 @@ _putchar(letter);
 }
 _putchar('\n');
 
+}
 }
