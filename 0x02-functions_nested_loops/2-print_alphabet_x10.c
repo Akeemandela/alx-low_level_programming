@@ -2,7 +2,7 @@
 /**
 *print_alphabet_x10 - print 10 times the alphabets, then new line..
 *
-*Return: Always 0.
+*Return: Always nothing
 */
 
 void print_alphabet_x10(void)
@@ -20,5 +20,4 @@ _putchar('\n');
 
 count++;
 }
-return (0);
 }
