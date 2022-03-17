@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *Jack_bauer _ print every minute of his day
+ *Jack_bauer - print every minute of his day
  *
  *Return: Always nothing.
  */
