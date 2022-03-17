@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- *Jack_bauer - print every minute of his day
+ *_Jack_bauer - print every minute of his day
  *
  *Return: Always nothing.
  */
-
 void jack_bauer(void)
 {
 int hr;
