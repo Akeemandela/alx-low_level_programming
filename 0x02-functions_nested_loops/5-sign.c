@@ -22,6 +22,4 @@ else
 _putchar('-');
 }
 return (print_sign);
-}
-
-  
+}  
