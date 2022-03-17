@@ -7,9 +7,9 @@
 int _isalpha(int c)
 {
 int isalpha = 0;
-char contain_value = c;
+char cap = c;
 
-if ((contain_value >= 'A' && contain_value <= 'Z') || (contain_value >= 'a' && contain_value <= 'z'))
+if ((cap >= 'A' && cap <= 'Z') || (cap >= 'a' && cap <= 'z'))
 {
 isalpha = 1;
 }
