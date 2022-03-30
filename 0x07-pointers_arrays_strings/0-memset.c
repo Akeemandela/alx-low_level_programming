@@ -1,18 +1,16 @@
-#include <stdio.h>
 #include "main.h"
 /**
- *memset - fills memory with a constant bytes.
- *@s:allocated memory -array of character
- *@b: char byte
- *@n:number of spaces to fill
- *
- *Return: pointer to memory area s
+ * *_memset - fills memory with a constant byte
+ * @s: memory area tto be filled
+ * @b: char to copy
+ * @n: number of times   to copy b
+ * Return: ponter tto the memory area s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
 unsigned int i;
 
-for (i = 0; i < n; i++)
+for (i = 0;  i < n; i++)
 {
 s[i] = b;
 }
