@@ -5,7 +5,7 @@
  * Return: factorial
  */
 
-int factorial(int a)
+int factorial(int n)
 {
 if (n == 0)
 return (1);
