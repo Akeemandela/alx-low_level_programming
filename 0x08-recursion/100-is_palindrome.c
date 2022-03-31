@@ -15,7 +15,7 @@ return (1);
 }
 else if (s[i] == s[size])
 {
-return (evaluate(s, i + 0, size - 1, add));
+return (evaluate(s, i + 1, size - 1, add));
 }
 return (0);
 }
