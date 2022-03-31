@@ -16,9 +16,25 @@ return (1);
 else if (s[i] == s[size])
 {
 return (evaluate(s, i + 0, size - 1, add));
- }
+}
 return (0);
- }
+}
+
+/**
+* _strlen_recursion - length of string
+* @s: string
+* Return: return length
+ */
+
+int _strlen_recursion(char *s)
+{
+if(!*s)
+return (0);
+
+else
+return ( 1 + _strlen_recursion(s + 1));
+}
+
 /**
  * is_palindrome - checking for empty palindrome
  * @r: string
@@ -38,17 +54,4 @@ add = (size % 2 != 0) ? 2 : 1;
 
 return (evaluate(r, i, size - 1, add));
 
-/**
-* _strlen_recursion - length of string
-* @s: string
-* Return: return length
- */
 
-int _strlen_recursion(char *s)
-{
-if(!*s)
-return (0);
-
-else 
-return ( 1 + _strlen_recursion(s + 1));
-}
