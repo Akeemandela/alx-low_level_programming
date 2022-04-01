@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * wildcmp - compare 2 strings 
+ * wildcmp - compare 2 strings
  * @s1: string to compare
  * @s2: string to compare with
  * Return: return 1 if the strings are identical, otherwise 0
@@ -15,6 +15,6 @@ return (0);
 if (*s1 == *s2)
 return (wildcmp(s1 + 1, s2 + 1));
 if (*s2 == '*')
-return((wildcmp(s1 + 1, s2)) || (wildcmp(s1, s2 + 1)));
+return ((wildcmp(s1 + 1, s2)) || (wildcmp(s1, s2 + 1)));
 return (0);
 }
