@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 #ifndef PI 
 #define PI 3.14159265359
 #endif
