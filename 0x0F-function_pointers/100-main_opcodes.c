@@ -1,7 +1,6 @@
 #include "function_pointers.h"
 
 /**
-*
 * main - print opcodes of its own main function
 *
 * @argc: number of arguments
@@ -23,14 +22,14 @@ char *ptr = (char *)main;
 
 if (argc != 2)
 {
-printf("Error\n"), 
+printf("Error\n"); 
 exit(1);
 }
 num = atoi(argv[1]);
 
 if (num < 0)
 {
-printf("Error\n"), 
+printf("Error\n"); 
 exit(2);
 }
 for (i = 0; i < num - 1; i++)
