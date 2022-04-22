@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * List_len = print and count all the elements of the list
+ * list_len - print and count all the elements of the list
  * @h: the head of linked list
  * Return: numbers of members of a list
  */
