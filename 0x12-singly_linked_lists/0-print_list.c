@@ -23,7 +23,7 @@ if (h->str == NULL)
 printf("[0] (nil)\n");
 
 
-ielse
+else
 
 printf("[%d] %s\n", h->len, h->str);
 i++;
