@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * strlen== length of string
+ * strlen - length of string
  * @s: pointer to an int value
  *
  * Return: void
@@ -36,12 +36,12 @@ list_t *new_node;
 new_node = (struct list_s *)malloc(sizeof(struct list_s));
 
 if (new_node == NULL)
-return(NULL);
+return (NULL);
 
-new_node -> str = strdup(str);
-new_node -> len = _strlen(str);
+new_node->str = strdup(str);
+new_node->len = _strlen(str);
 
-new_node -> next = *head;
+new_node->next = *head;
 *head = new_node;
 
 return (*head);
