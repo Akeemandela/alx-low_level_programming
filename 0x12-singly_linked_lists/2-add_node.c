@@ -4,7 +4,7 @@
 /**
  * strlen - length of string
  * @s: pointer to an int value
- *
+ *Description: the function return the length of a string
  * Return: void
  */
 
@@ -26,6 +26,7 @@ return (i);
  * add_node - add new node at the beginning of the list
  * @head: pointer
  * @str: string
+ *Description: the function add node to the list
  * Return: number of elements in the list
  */
 
