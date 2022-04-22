@@ -2,13 +2,14 @@
 #include "lists.h"
 
 /**
- * List_len = print and count all the elements of the list
+ * list_len = print and count all the elements of the list
  * @h: the head of linked list
+ * Description: This function access and return the elements of a list
  * Return: numbers of members of a list
  */
 
 
-size_t list_len(const list_t *h)		
+size_t list_len(const list_t *h)
 {
 size_t counter = 0;
 
