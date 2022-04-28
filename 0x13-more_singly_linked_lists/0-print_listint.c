@@ -20,5 +20,5 @@ h = h->next;
 x++;
 }
 
-return (i);
+return (x);
 }
