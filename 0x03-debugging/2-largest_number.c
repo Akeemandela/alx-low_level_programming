@@ -1,3 +1,4 @@
+
 #include "main.h"
 /**
  *largest_number - return the largest of 3 numbers
@@ -24,4 +25,5 @@ else if (c > a && c > b)
 largest = c;
 }
 return (largest);
+}
 }
