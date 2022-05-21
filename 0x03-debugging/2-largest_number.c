@@ -5,6 +5,7 @@
  *@a:first integer
  *@b:second integer
  *@c:third integer
+ *Description: the function finds the largest of three numbers
  *Return: largest number
  */
 int main(void)
