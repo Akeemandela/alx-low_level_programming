@@ -10,6 +10,10 @@
  */
 int main(void)
 {
+int large = largerst_number(a, b, c);
+
+return (0);
+}
 int largest_number(int a, int b, int c)
 {
 int largest;
@@ -27,5 +31,5 @@ largest = c;
 }
 return (largest);
 }
-return (0);
-}
+
+
