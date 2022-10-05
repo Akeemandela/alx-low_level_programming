@@ -18,7 +18,7 @@ int mid_search;
 if (array == NULL)
 return (-1);
 
-for (index = 0; l_search < r_search; i++)
+for (index = 0; l_search < r_search; index++)
 {
 printf("Searching in array: ");
 print_array(array, l_search, r_search);
