@@ -25,7 +25,7 @@ mid_search = (l_search + r_search) / 2;
 if (array[mid_search] < value)
 l_search = mid_search + 1;
 else if (array[mid_search] > value)
-r_search = mid_search -1;
+r_search = mid_search;
 else
 return (mid_search);
 }
